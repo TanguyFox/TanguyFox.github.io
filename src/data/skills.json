@@ -1,0 +1,37 @@
+[
+    {
+        "title" : "Java",
+        "imgSrc" : "skills/java.png",
+        "website" : "https://www.java.com/fr/"
+    },
+    {
+        "title" : "Scala",
+        "imgSrc" : "skills/scala.png",
+        "website" : "https://www.scala-lang.org/"
+    },
+    {
+        "title" : "PHP",
+        "imgSrc" : "skills/php.png",
+        "website" : "https://www.php.net/"
+    },
+    {
+        "title" : "HTML",
+        "imgSrc" : "skills/html.png",
+        "website" : "https://developer.mozilla.org/fr/docs/Web/HTML"
+    },
+    {
+        "title" : "CSS",
+        "imgSrc" : "skills/css.png",
+        "website" : "https://www.w3schools.com/css/default.asp"
+    },
+    {
+        "title" : "JavaScript",
+        "imgSrc" : "skills/javascript.png",
+        "website" : "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+    },
+    {
+        "title" : "MongoDB",
+        "imgSrc" : "skills/mongodb.png",
+        "website" : "https://www.mongodb.com/fr-fr/what-is-mongodb"
+    }
+]
