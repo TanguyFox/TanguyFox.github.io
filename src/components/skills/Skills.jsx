@@ -11,7 +11,7 @@ export const Skills = () => {
                 skills.map((skill,id) => {
                     return <div key={id} className={styles.language}>
                        <div className={styles.languageImgContainer}>
-                        <a href={skill.website}><img src={getImageUrl(skill.imgSrc)} alt={skill.title} /></a>
+                        <a href={skill.website} target="_blank"><img src={getImageUrl(skill.imgSrc)} alt={skill.title} /></a>
                        </div>  
                        <p>{skill.title}</p>
                     </div>

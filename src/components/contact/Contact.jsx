@@ -19,6 +19,6 @@ export const Contact = () => {
                 <a href="https://www.linkedin.com/in/tanguy-renard-302386255/">Tanguy Renard</a>
             </li>
         </ul>
-        <p>&cpy 2024 - Tanguy RENARD</p>
-    </footer>
+    </footer> 
+    
 }

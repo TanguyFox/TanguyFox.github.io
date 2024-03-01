@@ -10,7 +10,11 @@ export const Formation = () => {
                 alt="Diploma hat"
                 className={styles.formationImg}
             />
-            <p className={styles.description}>Description du BUT ici</p>
+            <p className={styles.description}>
+                Le BUT Informatique est un diplome formant de futurs développeur web et/ou logiciel. 
+                Tout au long de la formation, nous apprenons les bases de l'Informatique, comment développer une application
+                mais aussi comment organiser et conduire un projet Informatique.
+            </p>
         </div>
     </section>
 }

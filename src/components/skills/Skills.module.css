@@ -38,7 +38,7 @@
 }
 
 .languageImgContainer {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -49,6 +49,11 @@
 
 .languageImgContainer img {
     width : 75px;
+}
+
+.language:hover {
+    transform: scale(1.1);
+    transition: 0.33s ease-in-out;
 }
 
 .language p {

@@ -41,6 +41,10 @@
     letter-spacing: 1.5px;
 }
 
+.rights {
+    
+}
+
 @media screen and (max-width : 830px) {
     .container {
         flex-direction: column;
@@ -54,6 +58,10 @@
     }
 
     .links {
-        align-items: center;
+        align-items: flex-start;
+    }
+
+    .link a {
+        font-size: 20px;
     }
 }

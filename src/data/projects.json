@@ -4,5 +4,11 @@
         "description" : "Projet tutoré 2024 : Cette application a pour objectif de pouvoir lire, modifier et détecter les problèmes dans un fichier STL",
         "languages" : ["HTML", "CSS", "three.js (JavaScript)"],
         "source" : "https://github.com/TanguyFox/2023_Projet_Tutore_Application_Web_3D"
+    },
+    {
+        "title" : "Projet Zeldiablo",
+        "description" : "Zeldiablo était une SAE dans laquelle nous devions, par groupe de 4, réalisé un jeu de labyrinthe. Ce projet était découpé en plusieurs itérations nous mettant dans une situation de méthode agile",
+        "languages" : ["Java", "JavaFX"],
+        "source" : "https://github.com/TanguyFox/2022_Zeldiablo_renard136u_seiler33u_serrier26u_arcelin1u"
     }
 ]
