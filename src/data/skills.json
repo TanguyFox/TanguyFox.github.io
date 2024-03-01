@@ -30,8 +30,13 @@
         "website" : "https://developer.mozilla.org/fr/docs/Web/JavaScript"
     },
     {
+        "title" : "SQL",
+        "imgSrc" : "skills/sql.png",
+        "website" : "https://www.mongodb.com/fr-fr/what-is-mongodb"
+    },
+    {
         "title" : "MongoDB",
         "imgSrc" : "skills/mongodb.png",
-        "website" : "https://www.mongodb.com/fr-fr/what-is-mongodb"
+        "website" : "https://www.w3schools.com/sql/sql_intro.asp"
     }
 ]
