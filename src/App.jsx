@@ -1,5 +1,6 @@
 
 import styles from './App.module.css'
+import { Contact } from './components/contact/Contact'
 import { Formation } from './components/formation/Formation'
 import { Hero } from './components/hero/Hero'
 import { Navbar } from './components/navbar/Navbar'
@@ -16,6 +17,7 @@ function App() {
       <Formation />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   )
 }
