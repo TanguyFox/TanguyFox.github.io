@@ -21,6 +21,7 @@ export const Navbar = () => {
             <li><a href="#skills">Compétences</a></li>
             <li><a href="#projects">Projets</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Expériences</a></li>
         </ul>
     </div>
 </nav>

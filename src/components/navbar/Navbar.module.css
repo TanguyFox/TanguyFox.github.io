@@ -68,8 +68,8 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: rgb(25, 55, 109);
-        background: linear-gradient(0deg, rgb(89, 110, 149) 0%, rgba(25, 55, 109, 1) 100%);
+        background: rgb(82, 25, 109);
+        background: linear-gradient(0deg, rgb(125, 89, 149) 0%, rgb(84, 25, 109) 100%);
         padding: 24px 33px;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
     }
