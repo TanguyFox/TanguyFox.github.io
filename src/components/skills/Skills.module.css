@@ -15,6 +15,13 @@
     text-transform: uppercase;
 }
 
+.subtitle {
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -26,7 +33,9 @@
 .languages {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 50px;
 }
 

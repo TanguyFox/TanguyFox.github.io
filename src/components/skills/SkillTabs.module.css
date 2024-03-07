@@ -1,0 +1,82 @@
+@import "../../vars.css";
+
+.container {
+    margin-top: 20px;
+}
+
+.tabList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50vh;
+}
+
+.tab {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+}
+
+.content{
+    display: block;
+    width: 90%;
+    background-color: var(--primary-color);
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.subtabList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.subtab {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+}
+
+.selected {
+    background-color: var(--primary-color);
+    border-radius : 10px 10px 0  0;
+    font-weight: 500;
+ }
+
+ .selectedSubtab {
+    background-color: var(--primary-color);
+    border-radius : 10px;
+    font-weight: 500;
+ }
+
+ h4, h3 {
+    padding: 0 0 15px 0;
+ }

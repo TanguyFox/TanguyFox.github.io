@@ -10,6 +10,11 @@
         "website" : "https://www.scala-lang.org/"
     },
     {
+        "title" : "Flutter",
+        "imgSrc" : "skills/flutter.svg",
+        "website" : "https://flutter.dev/"
+    },
+    {
         "title" : "PHP",
         "imgSrc" : "skills/php.png",
         "website" : "https://www.php.net/"
@@ -32,11 +37,11 @@
     {
         "title" : "SQL",
         "imgSrc" : "skills/sql.png",
-        "website" : "https://www.mongodb.com/fr-fr/what-is-mongodb"
+        "website" : "https://www.w3schools.com/sql/sql_intro.asp"
     },
     {
         "title" : "MongoDB",
         "imgSrc" : "skills/mongodb.png",
-        "website" : "https://www.w3schools.com/sql/sql_intro.asp"
+        "website" : "https://www.mongodb.com/fr-fr/what-is-mongodb"
     }
 ]
