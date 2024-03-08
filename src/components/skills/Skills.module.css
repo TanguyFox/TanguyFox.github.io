@@ -20,6 +20,8 @@
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 1.5px;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 .content {
@@ -36,6 +38,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
     gap: 50px;
 }
 
