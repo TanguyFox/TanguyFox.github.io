@@ -3,12 +3,26 @@
         "title" : "STLViewer",
         "description" : "Projet tutoré 2024 : Cette application a pour objectif de pouvoir lire, modifier et détecter les problèmes dans un fichier STL",
         "languages" : ["HTML", "CSS", "three.js (JavaScript)"],
-        "source" : "https://github.com/TanguyFox/2023_Projet_Tutore_Application_Web_3D"
+        "source" : "https://github.com/TanguyFox/2023_Projet_Tutore_Application_Web_3D",
+        "demo" : "https://tanguyfox.github.io/2023_Projet_Tutore_Application_Web_3D"
     },
     {
         "title" : "Projet Zeldiablo",
         "description" : "Zeldiablo était une SAE dans laquelle nous devions, par groupe de 4, réalisé un jeu de labyrinthe. Ce projet était découpé en plusieurs itérations nous mettant dans une situation de méthode agile",
         "languages" : ["Java", "JavaFX"],
         "source" : "https://github.com/TanguyFox/2022_Zeldiablo_renard136u_seiler33u_serrier26u_arcelin1u"
+    },
+    {
+        "title" : "SpeechLearn",
+        "description" : "SpeechLearn est un projet réalisé en binôme. C'est un jeu d'apprentissage des langues dans le but de nous initier à l'API WebSpeech. La démo nécessite un compte de l'Université de Lorraine.",
+        "languages" : ["HTML", "CSS","JavaScript"],
+        "source" : "https://github.com/TanguyFox/2023_Projet_Multimedia_WebSpeech",
+        "demo" : "https://webetu.iutnc.univ-lorraine.fr/www/renard136u/2023_Projet_Multimedia_WebSpeech/"
+    },
+    {
+        "title" : "Perceptron multi-couches",
+        "description" : "La SAE de Perceptron multi-couches avait pour but de nous montrer son fonctionnement. Il est utilisé pour faire de l'apprentissage automatique. Cela nous a permis de le comparer au KNN, un algorithme d'apprentissage et de reconnaissance automatique.",
+        "languages" : ["Java"],
+        "source" : "https://github.com/TanguyFox/2023_SAE_IA_PERCEPTRON_MULTI-COUCHES/"
     }
 ]

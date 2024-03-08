@@ -29,7 +29,7 @@ export const SkillTabs = () => {
                 <div className={styles.header}>
                     <h3>Réaliser des applications</h3>
                     <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={4}  fillColor='#2c0b47' size={25}/>
+                        Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={4}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 
@@ -44,7 +44,7 @@ export const SkillTabs = () => {
                 <div className={styles.header}>
                     <h3>Optimiser des applications</h3>
                     <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={3}  fillColor='#2c0b47' size={25}/>
+                        Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={3}  fillColor='#2c0b47' size={25}/>
                     </div>
                    
                 </div>
@@ -58,7 +58,7 @@ export const SkillTabs = () => {
                 <div className={styles.header}>
                 <h3>Administrer des applications</h3>
                 <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={2.5}  fillColor='#2c0b47' size={25}/>
+                    Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={2.5}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 <p>Le BUT Informatique apporte les compétences pour réaliser et accompagner une application tout au long de son cycle de vie.
@@ -71,7 +71,7 @@ export const SkillTabs = () => {
                 <div className={styles.header}>
                     <h3>Gérer des données</h3>
                     <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={3.28}  fillColor='#2c0b47' size={25}/>
+                        Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={3.28}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 <p>Une application étant étroitement liée aux données, ma formation m'a permis d'acquérir des compétences dans leur gestion.
@@ -80,12 +80,12 @@ export const SkillTabs = () => {
             </TabPanel>
 
             <TabPanel selectedClassName={styles.content}>
-            <div className={styles.header}>
-                <h3>Conduire un développement</h3>
-                <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={3.66}  fillColor='#2c0b47' size={25}/>
+                <div className={styles.header}>
+                    <h3>Conduire un développement</h3>
+                    <div>
+                        Auto-évaluation : :  <Rating readonly iconsCount={5} allowFraction initialValue={3.66}  fillColor='#2c0b47' size={25}/>
                     </div>
-                    </div>
+                </div>
                 <p>
                     Réaliser une application demande une certaine organisation. Dans ce but, le BUT m'a initié aux méthodes agiles.
                     Au cours de divers projets, j'ai dû (généralement en équipe), étudier les besoins client et développer les 
@@ -97,7 +97,7 @@ export const SkillTabs = () => {
                 <div className={styles.header}>
                     <h3>Collaborer</h3>
                     <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={4}  fillColor='#2c0b47' size={25}/>
+                        Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={4}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 
@@ -124,7 +124,7 @@ export const SkillTabs = () => {
                 <div className={styles.header}>
                     <h3>Programmation</h3>
                     <div>
-                         Note globale :  <Rating readonly iconsCount={5} allowFraction initialValue={4}  fillColor='#2c0b47' size={25}/>
+                         Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={3.7}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 <p>
@@ -132,7 +132,9 @@ export const SkillTabs = () => {
                     J'aime particulièrement les bonnes pratiques que j'ai pu apprendre telles que les principes SOLID ou encore
                     certains patrons de conceptions qui permettent d'avoir un code propre. J'ai également une certaine facilité d'adaptation 
                     à différents langages par la multitude de ceux utilisés lors de ma formations. Là où j'ai encore des progrès à faire serait 
-                    la partie algorithmique, essentielle à tout bon développement.  
+                    la partie algorithmique (Moyenne de 10), essentielle à tout bon développement.<br /><br />
+
+                    Moyenne : 13 
                 </p>
             </TabPanel>
             
@@ -140,7 +142,7 @@ export const SkillTabs = () => {
             <div className={styles.header}>
                     <h3>Développement</h3>
                     <div>
-                         Note globale :  <Rating readonly iconsCount={5} allowFraction initialValue={3.75}  fillColor='#2c0b47' size={25}/>
+                         Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={3.75}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 <div className={styles.subTitle}>
@@ -153,7 +155,8 @@ export const SkillTabs = () => {
                     Le développement web occupe une part importante dans ma formation. J'ai pu y apprendre les rudiments du HTML et CSS, puis 
                     y intégrer des scripts JavaScript (fonctions, objets, classes, DOM/évènements, et programmation asynchrone). J'ai ensuite appris
                     la programmation en PHP, notamment pour les cookies / sessions et le sécurité. Je pense avoir de bonne capacités dans ce domaine,
-                    notamment la partie back-end. J'ai des compétences assez faible en style (CSS) mais j'ai pour objectif d'approfondir plus cet aspect.
+                    notamment la partie back-end. J'ai des compétences assez faible en style (CSS) mais j'ai pour objectif d'approfondir cet aspect.<br /><br />
+                    Moyenne : 15
                 </div>
                 <div className={styles.subTitle}>
                     <h4>Mobile</h4>
@@ -165,7 +168,9 @@ export const SkillTabs = () => {
                     Le développement mobile n'en est qu'à ses débuts dans ma formation. Jusqu'à présent, j'ai pu découvrir le framework Flutter couplé au 
                     langage Dart à travers un projet de ToDo List. Pendant cette dernière année, nous avons pu approfondir ce domaine en utilisant l'outil TensorFlow dans 
                     un contexte d'application mobile de reconnaissance d'images. Comme ce domaine n'est pas très approfondi au cours de ma formation,
-                    je pense être aux prémisces de ce que l'on peut faire en développement mobile
+                    je pense être aux prémisces de ce que l'on peut faire en développement mobile. <br /><br /> 
+                    
+                    Moyenne : 13.7
                 </p>
 
                 <div className={styles.subTitle}>
@@ -178,7 +183,9 @@ export const SkillTabs = () => {
                     De manière plus générale, j'ai pu apprendre les méthodes d'analyse et de conception objet en UML. Lors de nombreux projets, j'ai été mis 
                     dans un contexte de développement agiles avec un système d'itérations : réaliser des tâches dans une période donnée au terme desquelles nous pouvions
                     montrer l'avancée au client. Enfin, j'ai été initié aux diagrammes de Gantt et de PERT pour planifier un projet et ses coûts.
-                    Les nombreux projets que nous avons réalisé me permettent d'avoir une base solide en méthode agile et planification. 
+                    Les nombreux projets que nous avons réalisé me permettent d'avoir une base solide en méthode agile et planification.<br /><br />
+                    
+                    Moyenne générale : 13.5
                 </p>
             </TabPanel>
 
@@ -186,17 +193,17 @@ export const SkillTabs = () => {
             <div className={styles.header}>
                     <h3>Base de données</h3>
                     <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={3.5}  fillColor='#2c0b47' size={25}/>
+                    Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={3.5}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 <p>
                     La conception d'une base de données est une compétence utile lorsqu'il s'agit de développer une application ou un programme.
                     Personnellement, je suis en capacité de faire une modélisation UML d'une base de données et d'en établir des relations.
-                    Je sais également effectuer des requêtes SQL pour gérer les données ou encore utiliser des Object-Relational Mapper (ORM) pour 
+                    Je sais également effectuer des requêtes SQL et PL/SQL pour gérer les données ou encore utiliser des Object-Relational Mapper (ORM) pour 
                     gérer les données au sein d'une application web par exemple. Comme pour la programmation, j'ai pu manipuler différents Système de Gestion de 
-                    Base de Données (SGBD) ce qui m'a donné une forte capacité d'adaptation. D'un autre côté, l'aspect de normalisation, est une action 
-                    assez complexe. J'ai également été initié au NoSQL lors de ma formation, mais cette forme de base de données ne pas été enseigné de manière 
-                    à ce que je puisse la considérer comme acquise. De manière général, je sais gérer une base de données (création, requêtes, modification)
+                    Base de Données (SGBD) ce qui m'a donné une forte capacité d'adaptation.<br /><br /> D'un autre côté, l'aspect de normalisation, est une action 
+                    assez complexe. J'ai également été initié au NoSQL lors de ma formation, mais cette forme de base de données ne m'a pas été enseigné de manière 
+                    à ce que je puisse la considérer comme acquise.<br /><br /> Ma moyenne de 13.84 me permet de dire que j'ai les compétences de base mais elles pourraient être approfondies.
                 </p>
             </TabPanel>
 
@@ -204,17 +211,17 @@ export const SkillTabs = () => {
             <div className={styles.header}>
                     <h3>Système et réseau</h3>
                     <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={2}  fillColor='#2c0b47' size={25}/>
+                        Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={2}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 <p>
                     Mes compétences en système et réseau sont assez limitées. Le BUT m'a appris les protocoles et services réseaux intranet/internet tels que le TCP/IP, le DNS, HTTP, ou les sockets.
                     J'ai également appris la programmation Shell et système en C sous environnement Unix, ainsi que la gestion des processus et threads d'un programme.
                     
-                    Une chose que j'ai trouvé très intéressante est l'API Remote Method Invocation (RMI). Propre à Java, elle permet de d'appeler des méthodes d'un programme tournant sur une notre machine.
-                    Cette API permet de faire des programmes de manière simplifiée permettant à plusieurs machines d'intéragir entre elles. 
+                    Un aspect que j'ai trouvé très intéressante est l'API Remote Method Invocation (RMI). Propre à Java, elle permet de d'appeler des méthodes d'un programme tournant sur une autre machine.
+                    Cette API permet de faire des programmes de manière simplifiée permettant à plusieurs machines d'intéragir entre elles.<br /><br />
 
-                    Ces domaines n'étant pas tous très développés, j'estime y avoir un niveau assez faible, sauf en RMI où j'ai eu un plus de facilités.
+                    Ces domaines n'étant pas tous très développés, j'estime y avoir un niveau assez faible (Moyenne global : 10.7), sauf en RMI (12.1 de moyenne) où j'ai eu un plus de facilités .
                 </p>
             </TabPanel>
 
@@ -222,7 +229,7 @@ export const SkillTabs = () => {
             <div className={styles.header}>
                     <h3>Administration et déploiement</h3>
                     <div>
-                         Note :  <Rating readonly iconsCount={5} allowFraction initialValue={2.66}  fillColor='#2c0b47' size={25}/>
+                        Auto-évaluation :  <Rating readonly iconsCount={5} allowFraction initialValue={2.66}  fillColor='#2c0b47' size={25}/>
                     </div>
                 </div>
                 <p>
@@ -231,11 +238,31 @@ export const SkillTabs = () => {
                     Les CI/CD sont utilisés lors de développement collaboratif afin de garder un code partagé "sain" et de pouvoir automatisé le déploiement d'une application 
                     sur un serveur par exemple.
                     
-                    Ces domaines étant arrivées tardivement, j'estime n'avoir acquis que les bases et avoir une grande marge de progression.
+                    Ces domaines étant arrivés tardivement, j'estime n'avoir acquis que les bases et avoir une grande marge de progression <br /><br /> 
+                    <b>Moyenne global : 15.33</b>
                 </p>
             </TabPanel>
             </Tabs>
-        </TabPanel>        
+        </TabPanel>    
+
+        <TabPanel selectedClassName={styles.content}>
+            <p>
+                J'ai pu acquérir d'autres compétences notamment scientifique : <br /><br />
+               <ul>
+                    <li>Logique des propositions et des prédicats du premier ordre</li>
+                    <li>Modélisation mathématiques</li>
+                    <li>Statistiques</li>
+                </ul> 
+                <br /><br />
+                Mais aussi en programmation : <br /><br />
+                <ul>
+                    <li>Initiation à l'Intelligence artificiel</li>
+                    <li>Optimisation pour l'aide à la décision</li>
+                    <li>Compilation - Théorie des langages et analyse syntaxique</li>
+                </ul>
+
+            </p> 
+        </TabPanel>    
     </Tabs>
   )
 }
